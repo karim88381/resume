@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Builder</h1>
+    <form class="resume-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="John Doe" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="john@example.com" />
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" placeholder="+1234567890" />
+
+      <label for="education">Education:</label>
+      <textarea id="education" placeholder="Your education background"></textarea>
+
+      <label for="experience">Experience:</label>
+      <textarea id="experience" placeholder="Your work experience"></textarea>
+
+      <label for="skills">Skills:</label>
+      <textarea id="skills" placeholder="Your skills (e.g., HTML, CSS, JS)"></textarea>
+
+      <button type="submit">Generate Resume</button>
+    </form>
+
+    <div class="resume-preview">
+      <h2>Resume Preview</h2>
+      <div class="resume-section">
+        <h3>John Doe</h3>
+        <p>Email: john@example.com | Phone: +1234567890</p>
+      </div>
+      <div class="resume-section">
+        <h4>Education</h4>
+        <p>Your education background</p>
+      </div>
+      <div class="resume-section">
+        <h4>Experience</h4>
+        <p>Your work experience</p>
+      </div>
+      <div class="resume-section">
+        <h4>Skills</h4>
+        <p>Your skills</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
